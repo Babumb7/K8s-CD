@@ -5,7 +5,7 @@ metadata:
   name: eleven-devops-deployment
   labels:
     app: my-app
-  Namespace: babu
+  namespace: babu
 spec:
   replicas: 1
   selector:
@@ -33,7 +33,7 @@ metadata:
  name: my-elevendevops-service
  labels:
    app: my-app
- Namespace: babu
+ namespace: babu
 spec:
  type: NodePort
  ports:
