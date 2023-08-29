@@ -11,7 +11,7 @@ pipeline {
       steps {
         script {
           kubernetesDeploy(configs: "k8s-deployment-service-manifest-file.yaml" , kubeconfigId: "k8s",enableConfigSubstitution: true)
-        }
+	    }
       }
     }
 	
