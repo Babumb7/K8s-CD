@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: eleven-devops-deployment
+  name: babu11-dep
   labels:
     app: my-app
   namespace: babu
@@ -30,7 +30,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
- name: my-elevendevops-service
+ name: babu11-service
  labels:
    app: my-app
  namespace: babu
